@@ -3,7 +3,7 @@ cask "ghir" do
   name "ghir"
   desc "ghir is a CLI making GitHub Releases immutable"
   homepage "https://github.com/suzuki-shunsuke/ghir"
-  version "0.0.2"
+  version "0.0.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "ghir" do
   on_macos do
     on_intel do
       url "https://github.com/suzuki-shunsuke/ghir/releases/download/v#{version}/ghir_darwin_amd64.tar.gz"
-      sha256 "eb672dc38256f624bd5f0a195dee11de6fb7b1a6dfeb53877c97dd39e9625ff4"
+      sha256 "28a3508d776437cb0f0d1b794307f3ba588edfea95e194e48531a4cc8227639a"
     end
     on_arm do
       url "https://github.com/suzuki-shunsuke/ghir/releases/download/v#{version}/ghir_darwin_arm64.tar.gz"
-      sha256 "703c01def9c996d4e91dd15b721f25735176d0548163f486c0da462e064ba15b"
+      sha256 "b530c865e6fda1212beb5ad7561411d3e64c59dd2945ace20b434838c4fd5e79"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/suzuki-shunsuke/ghir/releases/download/v#{version}/ghir_linux_amd64.tar.gz"
-      sha256 "13c3bc34b61116547a3b90d528220b318c47ea9a1f9553aeba24f394c513e461"
+      sha256 "338cefcb0bd1064d0bd0bafe38f67ff3fda2d3a8a0fb23db52e3e99c2a102b84"
     end
     on_arm do
       url "https://github.com/suzuki-shunsuke/ghir/releases/download/v#{version}/ghir_linux_arm64.tar.gz"
-      sha256 "5c87c3502a92ed590fd0a1f5afce83204ec029ba717b9439703a7c0944c82d4a"
+      sha256 "47b56d04cc2e2a6c162db64c243202e31ce7ec6bddde74df5925c985901853a1"
     end
   end
 
